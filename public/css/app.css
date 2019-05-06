@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    color: #d71516;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: normal;
+    margin: 30px 0;
+}
+
+li {
+    font-size: x-large;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a h1:hover {
+    color: #f08482;
+}
+
+label {
+    display: block;
+    padding-top: 4px;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    color: #686868;
+    font-size: smaller;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit], button {
+    background-color: #d71516;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #f08482;
+}
+
+button {
+    background-color: #f08482;
+    border: none;
+    width: 200px;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.width-40 {
+    width: 40%;
+    float: left;
+}
+
+.font-med {
+    font-size: medium;
+}
+
+.highlight {
+    color: #f08482;
+}
+
+.planner {
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.planner div {
+    background-color: #d71516;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.content {
+    background-color: #1e3b4b;
+    width: 60%;
+    height: 100vh;
+    float: right;
+    padding: 7%;
+    box-sizing: border-box;
+}
